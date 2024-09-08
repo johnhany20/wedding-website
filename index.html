@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Merna & Mark's Wedding</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Wedding</h1>
+        <p>We are excited to celebrate our big day with you!</p>
+        <p><strong>Bride:</strong> MERNA & <strong>Groom:</strong> MARK</p>
+        <p>Date: 19/10/2024 at 6 PM</p>
+        <p>Location: ST. GEORGE CHURCH, RECEPTION TO FOLLOW AT LEGEND WEDDING HALL</p>
+    </header>
+
+    <section id="countdown">
+        <h2>Countdown to Our Wedding Day</h2>
+        <p id="timer"></p>
+    </section>
+
+    <section id="details">
+        <h2>Wedding Details</h2>
+        <p><strong>Location:</strong> ST. GEORGE CHURCH</p>
+        <p><strong>Reception:</strong> LEGEND WEDDING HALL</p>
+        <p><strong>Time:</strong> 6 PM</p>
+        <p><strong>Dress Code:</strong> Formal</p>
+    </section>
+
+    <section id="rsvp">
+        <h2>RSVP</h2>
+        <form id="rsvp-form">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required><br>
+            
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="attendance">Will you attend?</label>
+            <select id="attendance" name="attendance">
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+            </select><br>
+            
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <section id="gallery">
+        <h2>Photo Gallery</h2>
+        <div class="gallery-grid">
+            <img src="photo1.jpg" alt="Engagement Photo 1">
+            <img src="photo2.jpg" alt="Engagement Photo 2">
+        </div>
+    </section>
+
+    <footer>
+        <p>Thank you for being part of our journey!</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+    <section id="gallery">
+        <h2>Photo Gallery</h2>
+        <div class="gallery-grid">
+            <img src="bride.jpg" alt="Bride Photo" title="Merna - The Bride">
+            <img src="groom.jpg" alt="Groom Photo" title="Mark - The Groom">
+            <img src="couple1.jpg" alt="Couple Photo 1" title="Engagement Photo">
+            <img src="couple2.jpg" alt="Couple Photo 2" title="Engagement Photo 2">
+        </div>
+    </section>
+    
+</body>
+</html>
